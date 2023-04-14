@@ -43,6 +43,8 @@ nav {
         list-style-type: none;
         &-item {
           a {
+            outline: 2px dashed transparent;
+            transition: 0.3s ease-in-out;
             color: inherit;
             text-decoration: none;
             padding: 10px;
@@ -51,6 +53,12 @@ nav {
               content: "0" counter(nav-list) ". ";
               color: var(--theme-color);
             }
+          }
+          a:focus {
+            outline: var(--theme-color);
+          }
+          &:hover {
+            color: var(--theme-color);
           }
         }
       }
