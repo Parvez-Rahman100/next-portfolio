@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav>
       <div className="wrapper">
         <div className="brand">
-          <Link href="https://www.facebook.com/parvez.rahman.144">
+          <Link href="https://www.facebook.com/iamparvezrahman/">
             <Logo />
           </Link>
         </div>
