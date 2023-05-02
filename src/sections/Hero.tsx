@@ -15,7 +15,7 @@ const Hero = () => {
         firms.
       </p>
       <div className="hero-button">
-        <Button text="Check out my projects" link="#" />
+        <Button text="Check Out My Projects" link="#" />
       </div>
     </div>
   );
