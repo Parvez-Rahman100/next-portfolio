@@ -7,59 +7,45 @@ function Projects() {
   const projectsData = [
     {
       image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      projectName: "Alumni Association",
+      projectLink: "https://alumni-association-4e4ae.web.app/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
-      projectTech: [
-        "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
-      ],
+        "Alumni Association is a based ex student of tejgaon college. Where ex student can login/signup via registration number. Can see other students info and also can post job offer. Communication system will be added soon.To Login on my site , use 'iamparvezrahman@gmail.com' as email and password is '123456'",
+      projectTech: ["React", "Tailwind", "Firebase", "ExpressJs", "MongoDB"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/Parvez-Rahman100/alumni-association-client",
+        externalLink: "https://alumni-association-4e4ae.web.app/",
       },
     },
     {
       image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      projectName: "Coders Clinic",
+      projectLink: "https://coders-clinic-fc76f.web.app/",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
-      projectTech: [
-        "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Styled Components",
-      ],
+        "This is a group project.Where I contribute a lot. Through this project I have learned a lot about git management. This website based on online problem solving platform.",
+      projectTech: ["React", "React-Redux", "Firebase", "Tailwind", "axios"],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/akilinjamam/coders-clinic",
+        externalLink: "https://coders-clinic-fc76f.web.app/",
       },
     },
     {
       image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      projectName: "Laptop Gizmo",
+      projectLink: "https://laptop-gizmo.web.app/",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "It's a tools website where you will find different parts of laptop which you can buy.Login, Registration via email password or social login(google).Both users and admin will be able to access the dashboard. Admin can add new product, manage users, delete products.",
       projectTech: [
         "React",
         "Node.js",
         "Firebase",
         "MongoDB",
         "Express",
-        "Redux Toolkit",
+        "Tailwind",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/Parvez-Rahman100/laptop-gizmo-client",
+        externalLink: "https://laptop-gizmo.web.app/",
       },
     },
   ];
@@ -123,6 +109,7 @@ function Projects() {
                   <ul className="project-info-links">
                     <li className="project-info-links-item">
                       <Link
+                        target="_blank"
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
                       >
@@ -131,6 +118,7 @@ function Projects() {
                     </li>
                     <li className="project-info-links-item">
                       <Link
+                        target="_blank"
                         href={projectExternalLinks.externalLink}
                         className="project-info-links-item-link"
                       >
