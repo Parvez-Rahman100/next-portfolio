@@ -87,7 +87,6 @@
         position: absolute;
         height: 350px;
         width: 350px;
-        background-color: #9d00ff1b;
         border-radius: 0.2rem;
         transition: 0.3s ease-in-out;
       }
@@ -109,7 +108,6 @@
 
         img {
           z-index: 0;
-          filter: grayscale(100%);
           transition: 0.3s ease-in-out;
           border-radius: 0.2rem;
         }

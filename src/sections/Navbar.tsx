@@ -7,14 +7,16 @@ import { CgClose } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+  const [visible, setVisible] = useState(false);
+  const [responsiveVisible, setResponsiveVisible] = useState(false);
   const sectionLinks = [
     { name: "About", link: "/#about" },
     { name: "Work", link: "/#work" },
-    { name: "Contact", link: "/#contact" },
+    {
+      name: "Contact",
+      link: "/#contact",
+    },
   ];
-
-  const [visible, setVisible] = useState(false);
-  const [responsiveVisible, setResponsiveVisible] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

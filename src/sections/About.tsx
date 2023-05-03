@@ -1,8 +1,20 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="about" id="about">
+    <motion.div
+      className="about"
+      id="about"
+      whileInView="visible"
+      initial="hidden"
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      variants={{
+        visible: { opacity: 1, y: -50 },
+        hidden: { opacity: 0, y: 0 },
+      }}
+    >
       <div className="title">
         <h2>About Myself</h2>
       </div>
@@ -44,7 +56,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
