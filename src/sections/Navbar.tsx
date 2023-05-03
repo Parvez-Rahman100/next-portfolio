@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import Logo from "@/components/logo";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const sectionLinks = [
@@ -9,9 +10,17 @@ const Navbar = () => {
     { name: "Contact", link: "/#contact" },
   ];
 
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.pageYOffset > 100 ? setVisible(true) : setVisible(false);
+    });
+  }, []);
+
   return (
     <nav>
-      <div className="wrapper">
+      <div className={`wrapper ${visible ? "blur-nav" : ""}`}>
         <div className="brand">
           <Link href="https://www.facebook.com/iamparvezrahman/">
             <Logo />
