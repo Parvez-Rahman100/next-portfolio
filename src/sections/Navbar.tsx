@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Logo from "@/components/logo";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CgClose } from "react-icons/cg";
@@ -48,12 +49,28 @@ const Navbar = () => {
   return (
     <nav>
       <div className={`wrapper ${visible ? "blur-nav" : ""}`}>
-        <div className="brand">
+        <motion.div
+          className="brand"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 0.3,
+            ease: "easeInOut",
+          }}
+        >
           <Link href="https://www.facebook.com/iamparvezrahman/">
             <Logo />
           </Link>
-        </div>
-        <div className="nav-responsive-toggle">
+        </motion.div>
+        <motion.div
+          className="nav-responsive-toggle"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 0.3,
+            ease: "easeInOut",
+          }}
+        >
           {responsiveVisible ? (
             <CgClose
               onClick={(e) => {
@@ -69,20 +86,39 @@ const Navbar = () => {
               }}
             />
           )}
-        </div>
+        </motion.div>
         <div className={`${responsiveVisible && "nav-responsive"} nav-items`}>
           <ul className="nav-items-list">
-            {sectionLinks.map(({ name, link }) => (
-              <li key={name} className="nav-items-list-item">
+            {sectionLinks.map(({ name, link }, index) => (
+              <motion.li
+                key={name}
+                className="nav-items-list-item"
+                initial={{ opacity: 0, y: -25 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  duration: 0.3,
+                  ease: "easeInOut",
+                  delay: 0.3 + index * 0.1,
+                }}
+              >
                 <Link className="nav-items-list-item-link" href={link}>
                   {name}
                 </Link>
-              </li>
+              </motion.li>
             ))}
           </ul>
-          <div className="nav-items-button">
+          <motion.div
+            className="nav-items-button"
+            initial={{ opacity: 0, y: -25 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.3,
+              ease: "easeInOut",
+              delay: 0.6,
+            }}
+          >
             <Button text="Resume" link="http://localhost:3000/resume.pdf" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </nav>
