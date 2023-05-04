@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
+import {
+  FiFacebook,
+  FiGithub,
+  FiInstagram,
+  FiLinkedin,
+  FiTwitter,
+} from "react-icons/fi";
 
 const SocialIcons = () => {
   const socialLinks = [
@@ -7,6 +13,11 @@ const SocialIcons = () => {
       name: "Github",
       icon: <FiGithub />,
       link: "https://github.com/Parvez-Rahman100",
+    },
+    {
+      name: "Facebook",
+      icon: <FiFacebook />,
+      link: "https://www.facebook.com/iamparvezrahman/",
     },
     {
       name: "LinkedIn",
