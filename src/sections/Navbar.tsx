@@ -11,7 +11,7 @@ const Navbar = () => {
   const [responsiveVisible, setResponsiveVisible] = useState(false);
   const sectionLinks = [
     { name: "About", link: "/#about" },
-    { name: "Work", link: "/#work" },
+    { name: "Projects", link: "/#projects" },
     {
       name: "Contact",
       link: "/#contact",
