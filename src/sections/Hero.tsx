@@ -65,7 +65,7 @@ const Hero = () => {
           delay: 1.7,
         }}
       >
-        <Button text="Check Out My Projects" link="#" />
+        <Button text="Check Out My Projects" link="/#work" />
       </motion.div>
     </div>
   );
