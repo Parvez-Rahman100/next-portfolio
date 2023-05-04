@@ -1,6 +1,6 @@
 .contact {
   max-width: 700px;
-  margin: 15rem auto;
+  margin: 4rem auto;
 
   display: flex;
   gap: 1rem;
@@ -20,7 +20,7 @@
     }
   }
   .contact-sub-title {
-    font-size: var(--tgiant);
+    font-size: var(--tx2large);
     color: var(--light-slate);
     font-family: var(--raleway);
   }
