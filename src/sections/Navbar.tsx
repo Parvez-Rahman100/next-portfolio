@@ -60,7 +60,7 @@ const Navbar = () => {
             ease: "easeInOut",
           }}
         >
-          <Link href="https://www.facebook.com/iamparvezrahman/">
+          <Link href="/">
             <Logo />
           </Link>
         </motion.div>
@@ -119,7 +119,10 @@ const Navbar = () => {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf" />
+            <Button
+              text="Resume"
+              link="https://parvez-portfolio.vercel.app/resume.pdf"
+            />
           </motion.div>
         </div>
       </div>

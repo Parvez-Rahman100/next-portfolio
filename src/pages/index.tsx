@@ -21,7 +21,7 @@ const Index = () => {
     <div className="app">
       <Head>
         <title>Parvez Rahman</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon2.ico" />
       </Head>
       {showContent && (
         <>
