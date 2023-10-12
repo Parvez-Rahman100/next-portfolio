@@ -119,7 +119,10 @@ const Navbar = () => {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="/src/assests/ParvezResume.pdf" />
+            <Button
+              text="Resume"
+              link="https://parvez-portfolio.vercel.app/ParvezResume.pdf"
+            />
           </motion.div>
         </div>
       </div>
