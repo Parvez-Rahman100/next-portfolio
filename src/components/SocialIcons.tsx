@@ -22,7 +22,7 @@ const SocialIcons = () => {
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/parvez-miah-945910229/",
+      link: "https://www.linkedin.com/in/parvez-rahman-945910229/",
     },
     {},
     {
