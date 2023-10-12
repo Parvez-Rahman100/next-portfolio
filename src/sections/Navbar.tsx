@@ -121,7 +121,7 @@ const Navbar = () => {
           >
             <Button
               text="Resume"
-              link="https://parvez-portfolio.vercel.app/Resume.pdf"
+              link="https://parvez-portfolio.vercel.app/ParvezResume.pdf"
             />
           </motion.div>
         </div>
