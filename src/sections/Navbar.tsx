@@ -1,3 +1,5 @@
+"use client";
+
 import Button from "@/components/Button";
 import Logo from "@/components/logo";
 import { motion } from "framer-motion";
@@ -121,7 +123,7 @@ const Navbar = () => {
           >
             <Button
               text="Resume"
-              link="https://parvez-portfolio.vercel.app/ParvezResume.pdf"
+              link="https://parvez-portfolio.vercel.app/Resume.pdf"
             />
           </motion.div>
         </div>
