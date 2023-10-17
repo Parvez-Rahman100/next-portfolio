@@ -113,7 +113,7 @@ function Projects() {
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
                       >
-                        <FiGithub />
+                        <FiGithub size={50} />
                       </Link>
                     </li>
                     <li className="project-info-links-item">
@@ -122,7 +122,7 @@ function Projects() {
                         href={projectExternalLinks.externalLink}
                         className="project-info-links-item-link"
                       >
-                        <FiExternalLink />
+                        <FiExternalLink size={50} />
                       </Link>
                     </li>
                   </ul>
