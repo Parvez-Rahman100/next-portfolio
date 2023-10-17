@@ -14,7 +14,7 @@ function Projects() {
       projectTech: ["React", "Tailwind", "Firebase", "ExpressJs", "MongoDB"],
       projectExternalLinks: {
         github: "https://github.com/Parvez-Rahman100/alumni-association-client",
-        externalLink: "https://alumni-association-4e4ae.web.app/",
+        externalLink: "https://alumni-association-client.vercel.app/",
       },
     },
     {
