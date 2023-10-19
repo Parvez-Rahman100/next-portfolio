@@ -6,7 +6,25 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
+      image: "/ss1.PNG",
+      projectName: "WebGency",
+      projectLink: "https://webgency.vercel.app/",
+      projectDescription:
+        "This project about web agency,Web related problem and solutions can be found here.You can buy packages.",
+      projectTech: [
+        "ReactJS",
+        "TailwindCSS",
+        "React-Icons",
+        "React-Slick",
+        "Countup",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/Parvez-Rahman100/webgency",
+        externalLink: "https://webgency.vercel.app/",
+      },
+    },
+    {
+      image: "/ss2.png",
       projectName: "Alumni Association",
       projectLink: "https://alumni-association-4e4ae.web.app/",
       projectDescription:
@@ -18,7 +36,7 @@ function Projects() {
       },
     },
     {
-      image: "/project2.png",
+      image: "/ss3.png",
       projectName: "Coders Clinic",
       projectLink: "https://coders-clinic-fc76f.web.app/",
       projectDescription:
@@ -29,8 +47,9 @@ function Projects() {
         externalLink: "https://coders-clinic-fc76f.web.app/",
       },
     },
+
     {
-      image: "/project3.png",
+      image: "/ss4.png",
       projectName: "Laptop Gizmo",
       projectLink: "https://laptop-gizmo.web.app/",
       projectDescription:

@@ -104,7 +104,11 @@
           gap: 1rem;
           flex-wrap: wrap;
           &-item {
-            color: var(--light-slate);
+            background: #163eb5fa;
+            border: 0px solid #a3b516b0;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
             font-family: var(--raleway);
           }
         }
