@@ -28,7 +28,7 @@ const SocialIcons = () => {
     {
       name: "Instagram",
       icon: <FiInstagram />,
-      link: "https://www.instagram.com/i_amparvezrahman/",
+      link: "https://www.instagram.com/iamparvezrahman/",
     },
     {
       name: "Twitter",
