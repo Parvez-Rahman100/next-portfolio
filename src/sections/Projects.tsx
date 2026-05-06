@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import USA from "./USA";
+
 
 function Projects() {
   const projectsData = [
@@ -11,16 +11,9 @@ function Projects() {
       projectName: "USA",
       projectLink: "/USA",
       projectDescription:
-        "This project about web agency,Web related problem and solutions can be found here.You can buy packages.",
-      projectTech: [
-        "ReactJS",
-        "TailwindCSS",
-        "React-Icons",
-        "React-Slick",
-        "Countup",
-      ],
+        "I specialize in USA B1/B2 visa processing, including completing the DS-160 form and managing the CGI Federal portal. I handle appointment scheduling for both normal and emergency visa dates. I ensure proper documentation and guidance throughout the process for smooth submission and better approval chances..",
+      projectTech: ["Visa Processing", "Documentation", "Client Support"],
       projectExternalLinks: {
-        github: "https://github.com/Parvez-Rahman100/webgency",
         externalLink: "/USA",
       },
     },
@@ -82,7 +75,7 @@ function Projects() {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2>Some Things I&apos;ve Built</h2>
+        <h2>Some Of My Success</h2>
       </motion.div>
       <div className="projects-container">
         {projectsData.map(
@@ -127,15 +120,17 @@ function Projects() {
                     ))}
                   </ul>
                   <ul className="project-info-links">
-                    <li className="project-info-links-item">
-                      <Link
-                        target="_blank"
-                        href={projectExternalLinks.github}
-                        className="project-info-links-item-link"
-                      >
-                        <FiGithub size={50} />
-                      </Link>
-                    </li>
+                    {projectExternalLinks.github && (
+                      <li className="project-info-links-item">
+                        <Link
+                          target="_blank"
+                          href={projectExternalLinks.github}
+                          className="project-info-links-item-link"
+                        >
+                          <FiGithub size={50} />
+                        </Link>
+                      </li>
+                    )}
                     <li className="project-info-links-item">
                       <Link
                         target="_blank"

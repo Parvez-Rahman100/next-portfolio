@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function USA() {
@@ -38,6 +39,38 @@ export default function USA() {
       }}
     >
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+        {/* Back to Home Button */}
+        <div style={{ marginBottom: "2rem", textAlign: "center" }}>
+          <Link href="/">
+            <button
+              style={{
+                backgroundColor: "#c8c414",
+                color: "#000000",
+                border: "none",
+                padding: "12px 24px",
+                borderRadius: "6px",
+                fontSize: "16px",
+                fontWeight: "600",
+                cursor: "pointer",
+                transition: "all 0.3s ease",
+                boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "#a8a414";
+                e.currentTarget.style.transform = "translateY(-2px)";
+                e.currentTarget.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.3)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "#c8c414";
+                e.currentTarget.style.transform = "translateY(0)";
+                e.currentTarget.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.2)";
+              }}
+            >
+              ← Back to Home
+            </button>
+          </Link>
+        </div>
+
         <h1 style={{
           fontSize: "2.5rem",
           fontWeight: 700,
