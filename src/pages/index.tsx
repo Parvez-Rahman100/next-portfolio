@@ -6,6 +6,7 @@ import Contact from "@/sections/Contact";
 import Hero from "@/sections/Hero";
 import Navbar from "@/sections/Navbar";
 import Projects from "@/sections/Projects";
+import USA from "@/sections/USA";
 import Head from "next/head";
 import { useState } from "react";
 
@@ -32,6 +33,7 @@ const Index = () => {
             <Hero />
             <About />
             <Projects />
+            <USA />
             <Contact />
           </main>
         </>

@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
+import USA from "./USA";
 
 function Projects() {
   const projectsData = [
     {
-      image: "/ss1.PNG",
-      projectName: "WebGency",
-      projectLink: "https://webgency.vercel.app/",
+      image: "/USA/1.JPG",
+      projectName: "USA",
+      projectLink: "/USA",
       projectDescription:
         "This project about web agency,Web related problem and solutions can be found here.You can buy packages.",
       projectTech: [
@@ -20,7 +21,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "https://github.com/Parvez-Rahman100/webgency",
-        externalLink: "https://webgency.vercel.app/",
+        externalLink: "/USA",
       },
     },
     {
