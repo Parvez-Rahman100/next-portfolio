@@ -38,7 +38,7 @@ const Hero = () => {
           delay: 1,
         }}
       >
-        My line of work for web
+        A Professional Visa Processor
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -50,10 +50,7 @@ const Hero = () => {
           delay: 1.25,
         }}
       >
-        I&apos;m a web developer with expertise in creating top-notch digital
-        experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at any IT
-        firms.
+        I&apos;m a professional visa processor with 2+ years of experience specializing in tourist visa applications for first-class countries.
       </motion.p>
       <motion.div
         className="hero-button"
@@ -65,7 +62,7 @@ const Hero = () => {
           delay: 1.7,
         }}
       >
-        <Button text="Check Out My Projects" link="/#projects" />
+        <Button text="Check Out My Success" link="/#projects" />
       </motion.div>
     </div>
   );
