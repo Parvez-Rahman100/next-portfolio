@@ -37,9 +37,8 @@ const About = () => {
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
-          <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/profile2.png" alt="Parvez" fill />
+            <Image src="/newPhoto.png" alt="Parvez" fill />
           </div>
         </div>
       </div>
