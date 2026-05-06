@@ -7,7 +7,7 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 function Projects() {
   const projectsData = [
     {
-      image: "/USA/1.JPG",
+      image: "/USA/1.png",
       projectName: "USA",
       projectLink: "/USA",
       projectDescription:
