@@ -21,31 +21,18 @@ const About = () => {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Hello! My name is Parvez Rahman, and I am a passoinate about
-            creating top-notch websites.My interest in web development was
-            sparked in 2020 when I created my first project called Perfumes
-            Granary, an app using React and Nodejs.
+            Hello! This is Parvez Rahman, a professional Visa Processor with 2+ years of experience specializing in tourist visa applications for first-class countries. I work on visa documentation, application review, profile assessment, travel plan preparation, and submission support. Experienced in handling embassy requirements, financial documents, and supporting papers for smooth visa processing. I provide professional guidance to clients throughout the complete visa application journey.
           </p>
           <p className="about-grid-info-text">
-            During this web development learning period, I have skilled
-            knowledge of HTML, CSS, React JS, Tailwind CSS, Node Js, MongoDB,
-            Express Js, and other technologies.
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on some new projects. Those are full stack
-            application.
-          </p>
-          <p className="about-grid-info-text">
-            Here are few technologies I have been working with recently.
+            Below are the countries I have recently gained experience working with:
           </p>
           <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">HTML</li>
-            <li className="about-grid-info-list-item">CSS</li>
-            <li className="about-grid-info-list-item">Javascript</li>
-            <li className="about-grid-info-list-item">NextJs</li>
-            <li className="about-grid-info-list-item">Tailwind CSS</li>
-            <li className="about-grid-info-list-item">Bootstrap</li>
+            <li className="about-grid-info-list-item">CANADA</li>
+            <li className="about-grid-info-list-item">AUSTRALIAL</li>
+            <li className="about-grid-info-list-item">USA</li>
+            <li className="about-grid-info-list-item">SCHENGEN</li>
+            <li className="about-grid-info-list-item">THAILAND</li>
+            <li className="about-grid-info-list-item">MALAYSIA</li>
           </ul>
         </div>
         <div className="about-grid-photo">
