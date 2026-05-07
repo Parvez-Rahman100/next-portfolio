@@ -17,16 +17,15 @@ function Projects() {
         externalLink: "/USA",
       },
     },
-    {
-      image: "/ss2.png",
-      projectName: "Alumni Association",
-      projectLink: "https://alumni-association-4e4ae.web.app/",
+     {
+      image: "/Canada/1.jpg",
+      projectName: "CANADA",
+      projectLink: "/Canada",
       projectDescription:
-        "Alumni Association is a based ex student of tejgaon college. Where ex student can login/signup via registration number. Can see other students info and also can post job offer. Communication system will be added soon.To Login on my site , use 'iamparvezrahman@gmail.com' as email and password is '123456'",
-      projectTech: ["React", "Tailwind", "Firebase", "ExpressJs", "MongoDB"],
+        "I provide professional Canada visa processing services, including application preparation, document review, profile assessment, and online submission support. Experienced in handling visitor visa applications, financial documents, travel history, and supporting papers according to immigration requirements. I guide clients throughout the complete process to ensure smooth and accurate visa submission.",
+      projectTech: ["Visa Processing", "Documentation", "Client Support"],
       projectExternalLinks: {
-        github: "https://github.com/Parvez-Rahman100/alumni-association-client",
-        externalLink: "https://alumni-association-client.vercel.app/",
+        externalLink: "/Canada",
       },
     },
     {
