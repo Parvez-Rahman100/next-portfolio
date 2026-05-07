@@ -19,8 +19,7 @@ const Contact = () => {
         <h1 className="contact-title">CONTACT</h1>
         <p className="contact-sub-title">Let&apos;s have Contact between us</p>
         <p className="contact-text">
-          I&apos;m looking for new opportunity. My inbox always open. I am
-          looking forward to join a job as junior web developer.
+          I&apos;m currently looking for new opportunities, and my inbox is always open. I look forward to joining a company as a Visa Processor, where I can utilize my experience and skills professionally.
         </p>
       </div>
       <ContactForm />
