@@ -39,26 +39,18 @@ function Projects() {
         externalLink: "/Malaysia",
       },
     },
-
     {
-      image: "/ss4.png",
-      projectName: "Laptop Gizmo",
-      projectLink: "https://laptop-gizmo.web.app/",
+      image: "/Thailand/1.jpg",
+      projectName: "THAILAND",
+      projectLink: "/Thailand",
       projectDescription:
-        "It's a tools website where you will find different parts of laptop which you can buy.Login, Registration via email password or social login(google).Both users and admin will be able to access the dashboard. Admin can add new product, manage users, delete products.",
-      projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Tailwind",
-      ],
+        "I provide professional Thailand visa processing services, including application preparation, document review, profile assessment, and online submission support. Experienced in handling visitor visa applications, financial documents, travel history, and supporting papers according to immigration requirements. I guide clients throughout the complete process to ensure smooth and accurate visa submission.",
+      projectTech: ["Visa Processing", "Documentation", "Client Support"],
       projectExternalLinks: {
-        github: "https://github.com/Parvez-Rahman100/laptop-gizmo-client",
-        externalLink: "https://laptop-gizmo.web.app/",
+        externalLink: "/Thailand",
       },
     },
+
   ];
   return (
     <div className="projects" id="projects">
@@ -117,28 +109,7 @@ function Projects() {
                       </li>
                     ))}
                   </ul>
-                  <ul className="project-info-links">
-                    {projectExternalLinks.github && (
-                      <li className="project-info-links-item">
-                        <Link
-                          target="_blank"
-                          href={projectExternalLinks.github}
-                          className="project-info-links-item-link"
-                        >
-                          <FiGithub size={50} />
-                        </Link>
-                      </li>
-                    )}
-                    <li className="project-info-links-item">
-                      <Link
-                        target="_blank"
-                        href={projectExternalLinks.externalLink}
-                        className="project-info-links-item-link"
-                      >
-                        <FiExternalLink size={50} />
-                      </Link>
-                    </li>
-                  </ul>
+            
                 </div>
               </motion.div>
             );
