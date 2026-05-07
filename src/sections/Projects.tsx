@@ -29,15 +29,14 @@ function Projects() {
       },
     },
     {
-      image: "/ss3.png",
-      projectName: "Coders Clinic",
-      projectLink: "https://coders-clinic-fc76f.web.app/",
+      image: "/Malaysia/1.jpg",
+      projectName: "MALAYSIA",
+      projectLink: "/Malaysia",
       projectDescription:
-        "This is a group project.Where I contribute a lot. Through this project I have learned a lot about git management. This website based on online problem solving platform.",
-      projectTech: ["React", "React-Redux", "Firebase", "Tailwind", "axios"],
+        "I provide professional Malaysia visa processing services, including application preparation, document review, profile assessment, and online submission support. Experienced in handling visitor visa applications, financial documents, travel history, and supporting papers according to immigration requirements. I guide clients throughout the complete process to ensure smooth and accurate visa submission.",
+      projectTech: ["Visa Processing", "Documentation", "Client Support"],
       projectExternalLinks: {
-        github: "https://github.com/akilinjamam/coders-clinic",
-        externalLink: "https://coders-clinic-fc76f.web.app/",
+        externalLink: "/Malaysia",
       },
     },
 
